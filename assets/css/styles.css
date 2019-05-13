@@ -356,6 +356,30 @@ a.dotted-link:hover {
 }
 
 /* Work Section */
+.experience .subexperience {
+  margin-bottom: 15px;
+}
+
+.experience .subexperience .title {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #545e69;
+}
+
+.experience .subexperience .title .place {
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+}
+
+.experience .subexperience .title .place .year {
+  font-size: 16px;
+  color: #999;
+  font-weight: normal;
+}
+
 .experience .item {
   margin-bottom: 30px;
 }
@@ -595,10 +619,6 @@ a.dotted-link:hover {
 }
 
 /* List section */
-.list bull{
-  margin-bottom: 10px;
-  padding: 50px
-}
 
 .list ul li {
   margin-bottom: 10px;

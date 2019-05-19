@@ -31,13 +31,13 @@
             <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Mounika Ponugoti" height="175" width="175"/>
             <div class="profile-content float-left">
                 <h1 class="name">Mounika Ponugoti</h1>
-                <h2 class="desc">PhD Candidate in Computer Architecture</h2>   
+                <h2 class="desc">PhD Candidate in Computer Architecture</h2> 			
 				<ul class="social list-inline">
                     <li class="list-inline-item"><a href="https://linkedin.com/in/mounikaponugoti"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/mounikaponugoti"><i class="fab fa-github-alt"></i></a></li>    					
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
+            <a class="btn btn-cta-primary float-right" href="contact-form.html" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -60,8 +60,8 @@
 							<div class="item">
 								<h3 class="title"> Enabling On-the-Fly Hardware Tracing of Data Reads in Multicores </h3>
 								<ul style="padding-left:15px;">
-									<li class="mb-2" > Published in ACM Transactions on Embedded Computer Systems X, 2019. https://doi.org/10.1145/3322642 </li>
-									<li class="mb-2"> This is incremental work from ICCD and CASES papers. It introduces the compression technique which exploits cache coherence protocol states and first access tracking bits. In addition, detailed experimental evaluation is performed </li>
+									<li class="mb-2" > Published in ACM Transactions on Embedded Computer Systems, Vol. 18, No. 4, May 2019 </li>
+									<li class="mb-2"> Introduces the hardware compression technique which exploits cache coherence protocol states and first access tracking bits </li>
 								</ul>
 								<p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Read Now</a></p>
 							</div><!--//item-->
@@ -133,7 +133,7 @@
                             <div class="item">
                                 <h3 class="title">Programming Languages Laboratory </h3>
 								<ul style="padding-left:15px;">
-									<li>Teaching C++ programming, grading and mentoring students projects</li>
+									<li>Teaching C++ programming, grading, and mentoring students projects</li>
 								</ul>
                             </div><!--//item-->
 							
@@ -184,9 +184,58 @@
 						
 					</div><!--//section-inner-->                
                 </section><!--//section-->
-				
-            </div><!--//primary-->
-			
+
+				<section class="experience section">
+					<div class="section-inner"> 
+						<h2 class="heading"> <i class="fas fa-laptop-code"> </i> Course Projects</h2>
+						<div class="content">
+							<div class="item">
+								<h3 class="title">Embedded platforms are ready for supercomputing?</h3>
+								<ul style="padding-left:15px;">
+									<li> The main goal of this project is to evaluate whether embedded platforms are ready for supercomputing or not </li>
+									<li> For this, I have measured energy efficiency, performance, and cost per performance of Core-i7 and Jetson-TK1 using 
+									Perf, Likwid, and Wattsup tools while running Parsec-3.0 and NAS parallel benchmarks </li>
+								</ul>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Floating point adder and subtractor using Verilog</h3>
+								<ul style="padding-left:15px;">
+									<li> ASIC module for floating point addition and subtraction is designed using Verilog and verified using Synopsys tools</li>
+									<li> This module can add and subtract two floating point numbers when the exponent is same</li>
+								</ul>
+								<p class="summary"> </p>
+								<p><a class="more-link" href="https://github.com/mounikaponugoti/Floatingpoint-Adder-Subtractor" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+							</div><!--//item-->
+							<div class="item">
+								<h3 class="title">Solving inverse boundary heat equation on GPGPU using CUDA</h3>
+								<ul style="padding-left:15px;">
+									<li>The goal of this project is to solve the inverse boundary heat equation using particle swarm optimization and CUDA on GPGPU </li>
+								</ul>
+								<p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+							</div><!--//item-->
+							
+							 <div class="item">
+								<h3 class="title">Voice authentication module for Linux</h3>
+								<ul style="padding-left:15px;">
+									<li>Sudo utility is modified to use user's voice for authentication </li>
+									<li>While training, features of the user voice are collected and stored in a file to utilize in verification process </li>
+								</ul>
+								<p><a class="more-link" href="https://github.com/mounikaponugoti/Voice-Authentication-Module"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+							</div><!--//item-->
+							
+							<div class="item">
+								<h3 class="title">Evaluation of Machine Learning Algorithms in Network Intrusion Detection</h3>
+								<ul style="padding-left:15px;">
+									<li class="summary">In literature, network intrusion detection using machine learning algorithms are evaluated using KDD CUP99 data set</li>
+									<li>However, this dataset has some problems. So, my goal is to verify the effectiveness of these algorithms using NSL-KDD (filtered KDD CUP99) data set</li>
+								</ul>
+							</div><!--//item-->
+													 
+						</div><!--//content-->  
+						
+					</div><!--//section-inner-->                 
+				</section><!--//section-->
+			</div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
                  <aside class="info aside section">
                     <div class="section-inner">
@@ -227,7 +276,7 @@
                                 <div class="item">
                                     <h3 class="level-title">Performance Monitoring</h3>
                                     <p class="intro">
-										Perf, PAPI, Likwid, Intel's VTune, AMD μProf 
+										Perf, Papi, Likwid, Intel's VTune, AMD μProf 
 									</p>                         
                                 </div><!--//item-->
                             </div>              
@@ -280,11 +329,11 @@
                     <div class="section-inner">
                         <h2 class="heading"><i class="fas fa-trophy"></i> Awards</h2>
                         <div class="content">
-                            <ul class="list-styled pb-4" style="padding-left:15px;">
+                            <ul style="padding-left:15px;">
                                 <li>Outstanding Graduate Student Award (2017)</li>
                                 <li>Academic Excellence Award (Graduate Dean’s List 2016, 2017, 2018, and 2019) </li>                       
                                 <li>Presidential Scholarship (January 2015)</li>
-                                <li>Merit award from the college as a department topper in undergraduate (April 2014)</li>
+                                <li>Merit award in undergraduate (April 2014)</li>
                                 <li>First place in poster presentation (March 2014) </li>
                             </ul>  <!-- <hr/> -->
                         </div><!--//content-->
